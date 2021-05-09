@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+
+    --Violet: hsl(257, 40%, 49%);
+     --Soft-Magenta: hsl(300, 69%, 71%)
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 400;
+    background: url(/images/bg-desktop.svg);
+    background-color: var(--Violet);  
+    
+}
+
+
+h1{
+    color: white;
+    text-align: left;
+    margin-left: 50rem;
+    line-height: 3rem;
+    margin-top: 250px;
+    margin-top: 12rem;
+
+}
+
+.Paragraph-about{
+    text-align: left;
+    color: white;
+    margin-left: 50rem;
+    margin-top: 2rem;
+}
+
+
+button{
+    
+      background-color: var(--Soft-Magenta);
+      float: right;
+      margin-top: -13rem;
+      margin-right: 24rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      border-radius: 2rem;
+      display: inline-block;
+} 
+
+
+footer{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.illustration-mockups{
+ 
+    margin-top: -19rem;
+    margin-left: 2rem;
+    
+
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.attribution { font-size: 12px; text-align: center; }
+    .attribution a { color: hsl(0, 0%, 100%); }
